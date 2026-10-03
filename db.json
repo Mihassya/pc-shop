@@ -1,0 +1,310 @@
+{
+	"categories": [
+		{ "id": "gpu", "name": "Видеокарты" },
+		{ "id": "cpu", "name": "Процессоры" },
+		{ "id": "ram", "name": "Оперативная память" },
+		{ "id": "prebuilt", "name": "Готовые сборки ПК" }
+	],
+	"products": [
+		{
+			"id": "gpu-1",
+			"name": "NVIDIA GeForce RTX 3060 12GB",
+			"category": "gpu",
+			"price": 32000,
+			"brand": "Palit",
+			"specs": { "memory": "12 GB GDDR6", "coreClock": "1320 MHz" },
+			"image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "gpu-2",
+			"name": "NVIDIA GeForce RTX 3060 Ti 8GB",
+			"category": "gpu",
+			"price": 38000,
+			"brand": "Gigabyte",
+			"specs": { "memory": "8 GB GDDR6", "coreClock": "1410 MHz" },
+			"image": "https://images.unsplash.com/photo-1658428359489-06041a31a98f?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "gpu-3",
+			"name": "NVIDIA GeForce RTX 3070 8GB",
+			"category": "gpu",
+			"price": 45000,
+			"brand": "MSI",
+			"specs": { "memory": "8 GB GDDR6", "coreClock": "1500 MHz" },
+			"image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?auto=format&fit=crop&q=80&w=800",
+			"inStock": false
+		},
+		{
+			"id": "gpu-4",
+			"name": "NVIDIA GeForce RTX 3080 10GB",
+			"category": "gpu",
+			"price": 65000,
+			"brand": "ASUS",
+			"specs": { "memory": "10 GB GDDR6X", "coreClock": "1440 MHz" },
+			"image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "gpu-5",
+			"name": "NVIDIA GeForce RTX 4060 8GB",
+			"category": "gpu",
+			"price": 35000,
+			"brand": "Gigabyte",
+			"specs": { "memory": "8 GB GDDR6", "coreClock": "1830 MHz" },
+			"image": "https://images.unsplash.com/photo-1658428359489-06041a31a98f?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "gpu-6",
+			"name": "NVIDIA GeForce RTX 4070 SUPER 12GB",
+			"category": "gpu",
+			"price": 72000,
+			"brand": "Palit",
+			"specs": { "memory": "12 GB GDDR6X", "coreClock": "1980 MHz" },
+			"image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "gpu-7",
+			"name": "NVIDIA GeForce RTX 4080 SUPER 16GB",
+			"category": "gpu",
+			"price": 115000,
+			"brand": "MSI",
+			"specs": { "memory": "16 GB GDDR6X", "coreClock": "2295 MHz" },
+			"image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "gpu-8",
+			"name": "NVIDIA GeForce RTX 4090 24GB",
+			"category": "gpu",
+			"price": 210000,
+			"brand": "ASUS",
+			"specs": { "memory": "24 GB GDDR6X", "coreClock": "2235 MHz" },
+			"image": "https://images.unsplash.com/photo-1658428359489-06041a31a98f?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "gpu-9",
+			"name": "AMD Radeon RX 7800 XT 16GB",
+			"category": "gpu",
+			"price": 60000,
+			"brand": "Sapphire",
+			"specs": { "memory": "16 GB GDDR6", "coreClock": "2124 MHz" },
+			"image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "gpu-10",
+			"name": "AMD Radeon RX 7900 XTX 24GB",
+			"category": "gpu",
+			"price": 105000,
+			"brand": "PowerColor",
+			"specs": { "memory": "24 GB GDDR6", "coreClock": "2270 MHz" },
+			"image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "cpu-1",
+			"name": "Intel Core i5-12400F",
+			"category": "cpu",
+			"price": 14000,
+			"brand": "Intel",
+			"specs": { "cores": "6", "socket": "LGA1700" },
+			"image": "https://images.unsplash.com/photo-1628036577823-3889c2518e90?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "cpu-2",
+			"name": "Intel Core i5-13400F",
+			"category": "cpu",
+			"price": 21000,
+			"brand": "Intel",
+			"specs": { "cores": "10", "socket": "LGA1700" },
+			"image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "cpu-3",
+			"name": "Intel Core i5-13600K",
+			"category": "cpu",
+			"price": 32000,
+			"brand": "Intel",
+			"specs": { "cores": "14", "socket": "LGA1700" },
+			"image": "https://images.unsplash.com/photo-1628036577823-3889c2518e90?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "cpu-4",
+			"name": "Intel Core i7-13700K",
+			"category": "cpu",
+			"price": 43000,
+			"brand": "Intel",
+			"specs": { "cores": "16", "socket": "LGA1700" },
+			"image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "cpu-5",
+			"name": "Intel Core i9-14900K",
+			"category": "cpu",
+			"price": 65000,
+			"brand": "Intel",
+			"specs": { "cores": "24", "socket": "LGA1700" },
+			"image": "https://images.unsplash.com/photo-1628036577823-3889c2518e90?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "cpu-6",
+			"name": "AMD Ryzen 5 5600X",
+			"category": "cpu",
+			"price": 15000,
+			"brand": "AMD",
+			"specs": { "cores": "6", "socket": "AM4" },
+			"image": "https://images.unsplash.com/photo-1625225230917-7a5dc0d5b430?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "cpu-7",
+			"name": "AMD Ryzen 7 5700X3D",
+			"category": "cpu",
+			"price": 24000,
+			"brand": "AMD",
+			"specs": { "cores": "8", "socket": "AM4" },
+			"image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "cpu-8",
+			"name": "AMD Ryzen 5 7500F",
+			"category": "cpu",
+			"price": 17000,
+			"brand": "AMD",
+			"specs": { "cores": "6", "socket": "AM5" },
+			"image": "https://images.unsplash.com/photo-1625225230917-7a5dc0d5b430?auto=format&fit=crop&q=80&w=800",
+			"inStock": false
+		},
+		{
+			"id": "cpu-9",
+			"name": "AMD Ryzen 7 7800X3D",
+			"category": "cpu",
+			"price": 42000,
+			"brand": "AMD",
+			"specs": { "cores": "8", "socket": "AM5" },
+			"image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "cpu-10",
+			"name": "AMD Ryzen 9 7950X",
+			"category": "cpu",
+			"price": 62000,
+			"brand": "AMD",
+			"specs": { "cores": "16", "socket": "AM5" },
+			"image": "https://images.unsplash.com/photo-1625225230917-7a5dc0d5b430?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "ram-1",
+			"name": "Kingston FURY Beast Black 16GB (2x8) DDR4",
+			"category": "ram",
+			"price": 4500,
+			"brand": "Kingston",
+			"specs": { "type": "DDR4", "frequency": "3200 MHz" },
+			"image": "https://images.unsplash.com/photo-1562976540-1502f75923f1?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "ram-2",
+			"name": "ADATA XPG GAMMIX D20 16GB (2x8) DDR4",
+			"category": "ram",
+			"price": 4200,
+			"brand": "ADATA",
+			"specs": { "type": "DDR4", "frequency": "3200 MHz" },
+			"image": "https://images.unsplash.com/photo-1611624458514-c10444ee03ce?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "ram-3",
+			"name": "Corsair Vengeance LPX 32GB (2x16) DDR4",
+			"category": "ram",
+			"price": 8500,
+			"brand": "Corsair",
+			"specs": { "type": "DDR4", "frequency": "3600 MHz" },
+			"image": "https://images.unsplash.com/photo-1662923761273-09cbce0c4de1?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "ram-4",
+			"name": "G.Skill Ripjaws V 32GB (2x16) DDR4",
+			"category": "ram",
+			"price": 9000,
+			"brand": "G.Skill",
+			"specs": { "type": "DDR4", "frequency": "3600 MHz" },
+			"image": "https://images.unsplash.com/photo-1562976540-1502f75923f1?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "ram-5",
+			"name": "Kingston FURY Beast 32GB (2x16) DDR5",
+			"category": "ram",
+			"price": 11500,
+			"brand": "Kingston",
+			"specs": { "type": "DDR5", "frequency": "5600 MHz" },
+			"image": "https://images.unsplash.com/photo-1611624458514-c10444ee03ce?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "ram-6",
+			"name": "Team Group T-Force Delta RGB 32GB (2x16) DDR5",
+			"category": "ram",
+			"price": 12500,
+			"brand": "Team Group",
+			"specs": { "type": "DDR5", "frequency": "6000 MHz" },
+			"image": "https://images.unsplash.com/photo-1662923761273-09cbce0c4de1?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "ram-7",
+			"name": "G.Skill Trident Z5 RGB 32GB (2x16) DDR5",
+			"category": "ram",
+			"price": 14000,
+			"brand": "G.Skill",
+			"specs": { "type": "DDR5", "frequency": "6400 MHz" },
+			"image": "https://images.unsplash.com/photo-1562976540-1502f75923f1?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "ram-8",
+			"name": "Patriot Viper Venom 32GB (2x16) DDR5",
+			"category": "ram",
+			"price": 11000,
+			"brand": "Patriot",
+			"specs": { "type": "DDR5", "frequency": "6000 MHz" },
+			"image": "https://images.unsplash.com/photo-1611624458514-c10444ee03ce?auto=format&fit=crop&q=80&w=800",
+			"inStock": false
+		},
+		{
+			"id": "ram-9",
+			"name": "Corsair Vengeance RGB 64GB (2x32) DDR5",
+			"category": "ram",
+			"price": 23000,
+			"brand": "Corsair",
+			"specs": { "type": "DDR5", "frequency": "6000 MHz" },
+			"image": "https://images.unsplash.com/photo-1662923761273-09cbce0c4de1?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		},
+		{
+			"id": "ram-10",
+			"name": "ADATA XPG Lancer Blade 32GB (2x16) DDR5",
+			"category": "ram",
+			"price": 11200,
+			"brand": "ADATA",
+			"specs": { "type": "DDR5", "frequency": "6000 MHz" },
+			"image": "https://images.unsplash.com/photo-1562976540-1502f75923f1?auto=format&fit=crop&q=80&w=800",
+			"inStock": true
+		}
+	]
+}
